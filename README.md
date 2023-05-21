@@ -12,7 +12,7 @@ The "Real-Time Search Demo with Spring Boot and WebSocket" is a demonstration ap
 4. No Results Handling: If no search results are found, the application gracefully notifies the user with an appropriate message, indicating that no items are available based on the search criteria.
 5. Scalable and Adaptable: The demo code is designed to be easily scalable and adaptable to different search scenarios and data sources. It serves as a foundation for developers to build real-time search functionality into their own applications.
 
-#### This GitHub repository serves as a valuable resource for developers who want to understand and implement real-time search functionality using Spring Boot and WebSocket technology. It provides a clear demonstration of the key concepts and code examples that can be utilized as a starting point for building similar features in their own projects.
+### This GitHub repository serves as a valuable resource for developers who want to understand and implement real-time search functionality using Spring Boot and WebSocket technology. It provides a clear demonstration of the key concepts and code examples that can be utilized as a starting point for building similar features in their own projects.
 
 ### I am excited to showcase my demo app that highlights the core functionality of a typical web application. However, I understand that each business has its own unique requirements, which is why I am offering additional features such as forgot password, email verification, password change, user detail change, admin panel, and many more based on your specific needs. I can work with you to customize and add any additional features to the app to make it a perfect fit for your business.
 
