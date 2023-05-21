@@ -1,9 +1,5 @@
 # <h1 style="text-align: center">Real-Time Search Demo with Spring Boot and WebSocket</h1>
 
-## DEMO
-
-<video src="https://user-images.githubusercontent.com/75155192/239738653-5218c7cd-f60a-46d7-8de8-7b9dd156faf0.mp4">
-
 ## Overview
 
 The "Real-Time Search Demo with Spring Boot and WebSocket" is a demonstration application built with Spring Boot, a Java framework for web application development. The main focus of this demo is to illustrate the implementation of a real-time search feature using WebSocket technology.
@@ -31,3 +27,7 @@ The "Real-Time Search Demo with Spring Boot and WebSocket" is a demonstration ap
 </ul>
 
 ### [E-Mail](mailto:heshanthenura@protonmail.com) heshanthenura@protonmail.com
+
+## DEMO
+
+<video src="https://user-images.githubusercontent.com/75155192/239738653-5218c7cd-f60a-46d7-8de8-7b9dd156faf0.mp4">
