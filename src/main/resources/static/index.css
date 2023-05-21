@@ -1,0 +1,67 @@
+* {
+    /*border: solid 1px black;*/
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    color: black;
+    text-align: center;
+    font-family: "Arial";
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    margin: 10px 0px;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100vw;
+    margin-top: 10px;
+}
+
+#search-wrap {
+    width: 80vw;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+
+#search {
+    width: 100%;
+    height: 30px;
+    border: solid 1px black;
+    padding: 0px 5px;
+}
+
+#search-btn {
+    width: auto;
+    background-color: black;
+    color: white;
+    font-family: "Arial";
+    font-size: 25px;
+    border: none;
+}
+
+#search-content {
+    border: solid 1px black;
+    width: 80vw;
+    max-width: 998px;
+}
+
+.movie-name{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}

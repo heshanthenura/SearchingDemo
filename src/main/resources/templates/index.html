@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Demo</title>
+    <link rel="stylesheet" th:href="@{index.css}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js" integrity="sha512-iKDtgDyTHjAitUDdLljGhenhPwrbBfqTKWO1mkhSFH3A7blITC9MhYon6SjnMhp4o0rADGw9yAC6EW4t5a4K3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.6.1/sockjs.min.js" integrity="sha512-1QvjE7BtotQjkq8PxLeF6P46gEpBRXuskzIVgjFpekzFVF4yjRgrQvTG1MTOJ3yQgvTteKAcO7DSZI92+u/yZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@8.3.2/dist/umd/uuidv4.min.js"></script>
+
+</head>
+<body>
+<h1 id="title">Searching Demonstration with Spring Boot</h1>
+<h3>You can search on search bar then it will automatically while you typing</h3>
+<div id="search-container">
+    <div id="search-wrap">
+        <input id="search" name="search" type="search" placeholder="SEARCH">
+<!--        <button id="search-btn">SEARCH</button>-->
+    </div>
+    <div id="search-content">
+        <h3 class="movie-name" th:each="movieName : ${movieList}" th:text="${movieName}"></h3>
+    </div>
+</div>
+
+<script th:src="@{index.js}"></script>
+
+</body>
+</html>
